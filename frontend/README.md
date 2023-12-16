@@ -8,18 +8,19 @@ The basic structure of an HTML page is laid out below. It contains the essential
 
 
 # HTML Basic Tags
-<DOCTYPE! html> – A doctype or document type declaration is an instruction that tells the web browser about the markup language in which the current page is written. It is not an element or tag. The doctype declaration is not case-sensitive.
-
-<html> – This tag is used to define the root element of HTML document. This tag tells the browser that it is an HTML document. It is the second outer container element that contains all other elements within it.
+```<DOCTYPE! html>``` – A doctype or document type declaration is an instruction that tells the web browser about the markup language in which the current page is written. It is not an element or tag. The doctype declaration is not case-sensitive.
 
 
-<head> – This tag is used to define the head portion of the HTML document that contains information related to the document. Elements within the head tag are not visible on the front-end of a webpage.
+```<html> ```– This tag is used to define the root element of HTML document. This tag tells the browser that it is an HTML document. It is the second outer container element that contains all other elements within it.
 
-<body> – The body tag is used to enclose all the visible content of a webpage. In other words, the body content is what the browser will show on the front end.
+
+```<head> ```– This tag is used to define the head portion of the HTML document that contains information related to the document. Elements within the head tag are not visible on the front-end of a webpage.
+
+```<body>``` – The body tag is used to enclose all the visible content of a webpage. In other words, the body content is what the browser will show on the front end.
 
 Example: This is the basic example of HTML that display the heading and paragraph content.
 
-
+```
 <!DOCTYPE html> 
 <html> 
   
@@ -41,6 +42,7 @@ Example: This is the basic example of HTML that display the heading and paragrap
 </body> 
   
 </html> 
+```
 
 # How the HTML code compile? 
 Html is a markup language. I.e, you are just defining how things are displayed, you cannot actually perfom any mathematical operations.
@@ -72,9 +74,9 @@ Unordered lists <ul>
   <li>Milk</li>
 </ul>
 ```
-# Video Element <video>
+# Video Element ```<video>```
 
-The <video> element embeds a media player for video playback. The src attribute will contain the URL to the video. Adding the controls attribute will display video controls in the media player.
+The ```<video>``` element embeds a media player for video playback. The src attribute will contain the URL to the video. Adding the controls attribute will display video controls in the media player.
 
 Note: The content inside the opening and closing tag is shown as a fallback in browsers that don’t support the element.
 ```
@@ -83,13 +85,13 @@ Note: The content inside the opening and closing tag is shown as a fallback in b
 </video>
 ```
 
-# Emphasis Element <em>
-The <em> element emphasizes text and browsers will usually italicize the emphasized text by default.
+# Emphasis Element``` <em>```
+The ```<em>``` element emphasizes text and browsers will usually italicize the emphasized text by default.
 ```
 <p>This <em>word</em> will be emphasized in italics.</p>
 ```
-# <ol> Ordered List Element
-The <ol> ordered list element creates a list of items in sequential order. Each list item appears numbered by default.
+# ```<ol>``` Ordered List Element
+The ```<ol>``` ordered list element creates a list of items in sequential order. Each list item appears numbered by default.
 ```
 <ol>
   <li>Preheat oven to 325 F 👩‍🍳</li>
@@ -97,8 +99,8 @@ The <ol> ordered list element creates a list of items in sequential order. Each 
   <li>Bake for 15 min ⏰</li>
 </ol>
 ```
-# <div> Div Element
-The <div> element is used as a container that divides an HTML document into sections and is short for “division”. <div> elements can contain flow content such as headings, paragraphs, links, images, etc.
+# ```<div>``` Div Element
+The ```<div>``` element is used as a container that divides an HTML document into sections and is short for “division”. ```<div>``` elements can contain flow content such as headings, paragraphs, links, images, etc.
 ```
 <div>
   <h1>A section of grouped elements</h1>
@@ -111,41 +113,43 @@ The <div> element is used as a container that divides an HTML document into sect
 ```
 # HTML Structure
 HTML is organized into a family tree structure. HTML elements can have parents, grandparents, siblings, children, grandchildren, etc.
-
+```
 <body>
   <div>
     <h1>It's div's child and body's grandchild</h1>
     <h2>It's h1's sibling</h2>
   </div>
 </body>
-
+```
 # Closing Tag
 An HTML closing tag is used to denote the end of an HTML element. The syntax for a closing tag is a left angle bracket < followed by a forward slash / then the element name and a right angle bracket to close >.
-
+```
 <body>
   ...
 </body>
+```
 
 # Attribute Name and Values
 HTML attributes consist of a name and a value using the following syntax: name="value" and can be added to the opening tag of an HTML element to configure or change the behavior of the element.
-
+```
 <elementName name="value"></elementName>
+```
 
-# <br> Line Break Element
-The <br> line break element will create a line break in text and is especially useful where a division of text is required, like in a postal address. The line break element requires only an opening tag and must not have a closing tag.
-
+# ```<br>``` Line Break Element
+The ```<br>``` line break element will create a line break in text and is especially useful where a division of text is required, like in a postal address. The line break element requires only an opening tag and must not have a closing tag.
+```
 A line break haiku.<br>
 Poems are a great use case.<br>
 Oh joy! A line break.
-
-# <img> Image Element
-HTML image <img> elements embed images in documents. The src attribute contains the image URL and is mandatory. <img> is an empty element meaning it should not have a closing tag.
-
+```
+# ```<img>``` Image Element
+HTML image ```<img>``` elements embed images in documents. The src attribute contains the image URL and is mandatory. ```<img>``` is an empty element meaning it should not have a closing tag.
+```
 <img src="image.png">
-
-# <h1>-<h6> Heading Elements
-HTML can use six different levels of heading elements. The heading elements are ordered from the highest level <h1> to the lowest level <h6>.
-
+```
+# ```<h1>-<h6>``` Heading Elements
+HTML can use six different levels of heading elements. The heading elements are ordered from the highest level ```<h1>``` to the lowest level ```<h6>```.
+```
 <h1>Breaking News</h1>
 <h2>This is the 1st subheading</h2>
 <h3>This is the 2nd subheading</h3>
@@ -155,63 +159,73 @@ HTML can use six different levels of heading elements. The heading elements are 
 The <p> paragraph element contains and displays a block of text.
 
 <p>This is a block of text! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+```
 
 # Unique ID Attributes
 In HTML, specific and unique id attributes can be assigned to different elements in order to differentiate between them.
 
 When needed, the id value can be called upon by CSS and JavaScript to manipulate, format, and perform specific instructions on that element and that element only. Valid id attributes should begin with a letter and should only contain letters (a-Z), digits (0-9), hyphens (-), underscores (_), and periods (.).
-
+```
 <h1 id="A1">Hello World</h1>
+```
 
 # HTML Attributes
-HTML attributes are values added to the opening tag of an element to configure the element or change the element’s default behavior. In the provided example, we are giving the <p> (paragraph) element a unique identifier using the id attribute and changing the color of the default text using the style attribute.
-
+HTML attributes are values added to the opening tag of an element to configure the element or change the element’s default behavior. In the provided example, we are giving the ```<p> ``` (paragraph) element a unique identifier using the id attribute and changing the color of the default text using the style attribute.
+```
 <p id="my-paragraph" style="color: green;">Here’s some text for a paragraph that is being altered by HTML attributes</p>
+```
+# ```<ul>``` Unordered List Element
+The ```<ul>``` unordered list element is used to create a list of items in no particular order. Each individual list item will have a bullet point by default.
 
-# <ul> Unordered List Element
-The <ul> unordered list element is used to create a list of items in no particular order. Each individual list item will have a bullet point by default.
-
+```
 <ul>
   <li>Play more music 🎸</li>
   <li>Read more books 📚</li>
 </ul>
-
+```
 # alt Attribute
-An <img> element can have alternative text via the alt attribute. The alternative text will be displayed if an image fails to render due to an incorrect URL, if the image format is not supported by the browser, if the image is blocked from being displayed, or if the image has not been received from the URL.
+An ```<img>``` element can have alternative text via the alt attribute. The alternative text will be displayed if an image fails to render due to an incorrect URL, if the image format is not supported by the browser, if the image is blocked from being displayed, or if the image has not been received from the URL.
 
 The text will be read aloud if screen reading software is used and helps support visually impaired users by providing a text descriptor for the image content on a webpage.
-
+```
 <img src="path/to/image" alt="text describing image" />
+```
 
-# <body> Body Element
-The <body> element represents the content of an HTML document. Content inside <body> tags are rendered on the web browsers.
+# ```<body>``` Body Element
+The ```<body>``` element represents the content of an HTML document. Content inside ```<body>``` tags are rendered on the web browsers.
 
-Note: There can be only one <body> element in a document.
+Note: There can be only one ```<body>``` element in a document.
 
+```
 <body>
   <h1>Learn to code with Codecademy :)</h1>
 </body>
+```
 
 # Span Element
-The <span> element is an inline container for text and can be used to group text for styling purposes. However, as <span> is a generic container to separate pieces of text from a larger body of text, its use should be avoided if a more semantic element is available.
-
+The ```<span>``` element is an inline container for text and can be used to group text for styling purposes. However, as ```<span>``` is a generic container to separate pieces of text from a larger body of text, its use should be avoided if a more semantic element is available.
+```
 <p><span>This text</span> may be styled differently than the surrounding text.</p>
 <strong> Strong Element
 The <strong> element highlights important, serious, or urgent text and browsers will normally render this highlighted text in bold by default.
 
 <p>This is <strong>important</strong> text!</p>
+```
+
 # HTML Element
 An HTML element is a piece of content in an HTML document and uses the following syntax: opening tag + content + closing tag. In the code provided:
-
+```
 <p> is the opening tag.
 Hello World! is the content.
 </p> is the closing tag.
 <p>Hello World!</p>
-# HTML Tag
-The syntax for a single HTML tag is an opening angle bracket < followed by the element name and a closing angle bracket >. Here is an example of an opening <div> tag.
+```
 
-# <sub> and <sup>
-Subscriptssub and superscriptssup with <sub> and <sup>.
+# HTML Tag
+The syntax for a single HTML tag is an opening angle bracket < followed by the element name and a closing angle bracket >. Here is an example of an opening ```<div>``` tag.
+
+# ```<sub> and <sup>```
+Subscriptssub and superscriptssup with ```<sub> and <sup>```.
 
 # What is the DOM?
 DOM stands for Document Object Model. It's the interface between JavaScript and the web browser.
