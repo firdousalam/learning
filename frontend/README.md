@@ -55,7 +55,7 @@ Javascript, which is often included with HTML, inside a “script” tag, has tr
 
 # Element Content
 The content of an HTML element is the information between the opening and closing tags of an element.
-
+```
 <h1>Codecademy is awesome! 🙂</h1>
 <li> List Item Element
 The <li> list item element create list items inside:
@@ -71,33 +71,35 @@ Unordered lists <ul>
   <li>Cookies</li>
   <li>Milk</li>
 </ul>
-
+```
 # Video Element <video>
+
 The <video> element embeds a media player for video playback. The src attribute will contain the URL to the video. Adding the controls attribute will display video controls in the media player.
 
 Note: The content inside the opening and closing tag is shown as a fallback in browsers that don’t support the element.
-
+```
 <video src="test-video.mp4" controls>
   Video not supported
 </video>
+```
 
 # Emphasis Element <em>
 The <em> element emphasizes text and browsers will usually italicize the emphasized text by default.
-
+```
 <p>This <em>word</em> will be emphasized in italics.</p>
-
+```
 # <ol> Ordered List Element
 The <ol> ordered list element creates a list of items in sequential order. Each list item appears numbered by default.
-
+```
 <ol>
   <li>Preheat oven to 325 F 👩‍🍳</li>
   <li>Drop cookie dough 🍪</li>
   <li>Bake for 15 min ⏰</li>
 </ol>
-
+```
 # <div> Div Element
 The <div> element is used as a container that divides an HTML document into sections and is short for “division”. <div> elements can contain flow content such as headings, paragraphs, links, images, etc.
-
+```
 <div>
   <h1>A section of grouped elements</h1>
   <p>Here’s some text for the section</p>
@@ -106,7 +108,7 @@ The <div> element is used as a container that divides an HTML document into sect
   <h1>Second section of grouped elements</h1>
   <p>Here’s some text</p>
 </div>
-
+```
 # HTML Structure
 HTML is organized into a family tree structure. HTML elements can have parents, grandparents, siblings, children, grandchildren, etc.
 
