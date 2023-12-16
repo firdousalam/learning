@@ -1,3 +1,49 @@
+# HTML
+HTML stands for HyperText Markup Language. It is used to design the web pages. With the help of HTML, you can create a complete website structure. HTML is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages and markup language defines the text document within the tag that define the structure of web pages. This HTML Tutorial is designed to provide basic to advanced HTML concepts for beginners and professionals both.
+
+
+
+# HTML Basic Structure of Web Page
+The basic structure of an HTML page is laid out below. It contains the essential building-block elements (i.e. doctype declaration, HTML, head, title, and body elements) upon which all web pages are created.
+
+
+# HTML Basic Tags
+<DOCTYPE! html> – A doctype or document type declaration is an instruction that tells the web browser about the markup language in which the current page is written. It is not an element or tag. The doctype declaration is not case-sensitive.
+
+<html> – This tag is used to define the root element of HTML document. This tag tells the browser that it is an HTML document. It is the second outer container element that contains all other elements within it.
+
+
+<head> – This tag is used to define the head portion of the HTML document that contains information related to the document. Elements within the head tag are not visible on the front-end of a webpage.
+
+<body> – The body tag is used to enclose all the visible content of a webpage. In other words, the body content is what the browser will show on the front end.
+
+Example: This is the basic example of HTML that display the heading and paragraph content.
+
+
+<!DOCTYPE html> 
+<html> 
+  
+<!-- Head Section content -->
+<head> 
+  
+    <!-- Page title -->
+    <title>Basic Web Page</title> 
+</head> 
+  
+<!-- Body Section content -->
+<body> 
+  
+    <!-- Used to display heading content -->
+    <h1>Welcome to MERN STACK TUTORIALS</h1> 
+  
+    <!-- Used to display paragrapg content -->
+    <p>BY TECHNOPHILE FIRDOUS</p> 
+</body> 
+  
+</html> 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
